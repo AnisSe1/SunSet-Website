@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+
+    <!-- Header -->
+    <section class="head ">
+
+        <div class="container ">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="/"> <img class="logoImage" src="logo.png" alt="logo"></a>
+
+                <button class="navbar-toggler" style=" background-color: #ececec" type="button"
+                    data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarToggler">
+
+
+                    <ul class="navbar-nav py-3 ms-auto">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="/">Home</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link " href="contact">Contact</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#About">About</a>
+                        </li>
+
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Profile
+                            </a>
+                            <ul class="dropdown-menu">
+
+                                <li><a class="dropdown-item" href="#">Profile settings</a></li>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item" href="#"> Login </a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+        <div class="container text-center">
+            <h1 class="mt-5 py-4"> HTML Website </h1>
+            <p class="py-3">This website is example of a website I designed using Bootstrap, HTML and CSS
+            </p>
+        </div>
+    </section>
+
+
+
+    <!-- About -->
+    <section class="about ">
+
+        <div class="container mt-5">
+
+            <div class="row">
+
+                <div class="col-lg-6 mt-5">
+
+                    <h3 class="mb-4 mt-5">Sunset</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed quos asperiores quod nemo magni
+                        dolorem,
+                        aliquam, ipsum repellat reprehenderit error illo possimus accusamus exercitationem animi debitis
+                        labore
+                        sunt quae sequi molestiae ea qui similique. Excepturi vel consequatur ad esse? Odio adipisci
+                        assumenda
+                        debitis quos architecto nulla explicabo dolor, ea quo.</p>
+
+                </div>
+
+                <div class="col-lg-6">
+                    <img src="beach.svg" alt="beach">
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+    <!-- Call to action -->
+
+    <section class="Calltoaction">
+
+        <div class="container  mb-3">
+
+            <div class="row">
+
+                <div class="col-lg-6  mb-3">
+                    <img src="relax.svg" alt="relax">
+                </div>
+
+                <div class="col-lg-6 mt-2 mb-3">
+
+                    <h3 class="mb-4 mt-2">Relaxation</h3>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed quos asperiores quod nemo magni
+                        dolorem,
+                        aliquam, ipsum repellat reprehenderit error illo possimus accusamus exercitationem animi debitis
+                        labore
+                        sunt quae sequi molestiae ea qui similique. Excepturi vel consequatur ad esse? Odio adipisci
+                        assumenda
+                        debitis quos architecto nulla explicabo dolor, ea quo.</p>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- Contact -->
+    <section class="contact py-5 mb-2">
+
+        <div class="container ">
+
+            <div class="row">
+
+                <div class="col-lg-6  mt-4  ">
+                    <img src="contact.svg" alt="cimage">
+                </div>
+
+
+                <div class="col-lg-5 mt-4 mx-5">
+                    <form method="POST" class="w-70 mx-3">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Name</label>
+                            <input type="name" class="form-control" id="name" placeholder="Please enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email address</label>
+                            <input type="email" class="form-control" id="email" placeholder="email@example.com">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="textArea" class="form-label">Comment</label>
+                            <textarea class="form-control" id="tex tArea" rows="5"></textarea>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-dark" type="button">Send</button>
+                        </div>
+                    </form>
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+
+
+
+
+    <footer class="text-center">Copyright © Anis Se 2023</footer>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
